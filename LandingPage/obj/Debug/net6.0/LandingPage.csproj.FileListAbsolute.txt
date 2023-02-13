@@ -33,3 +33,5 @@ C:\Users\Note\Desktop\Proyectos ASP\LandingPage\LandingPage\bin\Debug\net6.0\New
 C:\Users\Note\Desktop\Proyectos ASP\LandingPage\LandingPage\bin\Debug\net6.0\SendGrid.dll
 C:\Users\Note\Desktop\Proyectos ASP\LandingPage\LandingPage\bin\Debug\net6.0\StarkbankEcdsa.dll
 C:\Users\Note\Desktop\Proyectos ASP\LandingPage\LandingPage\obj\Debug\net6.0\LandingPage.csproj.CopyComplete
+C:\Users\Note\Desktop\Proyectos ASP\LandingPage\LandingPage\bin\Debug\net6.0\DotNetEnv.dll
+C:\Users\Note\Desktop\Proyectos ASP\LandingPage\LandingPage\bin\Debug\net6.0\Sprache.dll

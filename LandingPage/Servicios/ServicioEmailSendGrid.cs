@@ -15,15 +15,19 @@ namespace LandingPage.Servicios
 
         public ServicioEmailSendGrid(IConfiguration configuration)
         {
-            DotNetEnv.Env.Load();
             this.configuration = configuration;
+            DotNetEnv.Env.Load();
         }
 
         public async Task Enviar(ContactoViewModel contacto)
         {
-            var apiKey = configuration["SENDGRID_API_KEY"];
-            var email = configuration["SENDGRID_FROM"];
-            var nombre = configuration["SENDGRID_NOMBRE"];
+            var apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
+            var email = Environment.GetEnvironmentVariable("SENDGRID_FROM");
+            var nombre = Environment.GetEnvironmentVariable("SENDGRID_NOMBRE");
+
+            //var apiKey = configuration["SENDGRID_API_KEY"];
+            //var email = configuration["SENDGRID_FROM"];
+            //var nombre = configuration["SENDGRID_NOMBRE"];
 
             var cliente = new SendGridClient(apiKey);
             var from = new EmailAddress(email, nombre);
