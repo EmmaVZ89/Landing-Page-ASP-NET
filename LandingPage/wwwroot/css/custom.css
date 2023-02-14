@@ -1,4 +1,51 @@
-﻿#foto {
+﻿.contenedor-general {
+    background: rgb(146,66,176);
+    background: -moz-linear-gradient(210deg, rgba(146,66,176,1) 0%, rgba(37,0,51,1) 25%, rgba(50,8,66,1) 75%, rgba(54,10,71,1) 76%, rgba(149,66,180,1) 100%);
+    background: -webkit-linear-gradient(210deg, rgba(146,66,176,1) 0%, rgba(37,0,51,1) 25%, rgba(50,8,66,1) 75%, rgba(54,10,71,1) 76%, rgba(149,66,180,1) 100%);
+    background: linear-gradient(210deg, rgba(146,66,176,1) 0%, rgba(37,0,51,1) 25%, rgba(50,8,66,1) 75%, rgba(54,10,71,1) 76%, rgba(149,66,180,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9242b0",endColorstr="#9542b4",GradientType=1);
+}
+
+.nav-custom, .footer-custom {
+    box-shadow: inset 0px 0px 10px rgba(50,8,66,1) !important;
+    border: none !important;
+}
+
+    .footer-custom > div > a {
+        text-decoration: none;
+        color: rgba(50,8,66,1) !important;
+    }
+
+.icono i {
+    text-align: center;
+}
+
+.ul-cont {
+    margin-left: -5rem;
+}
+
+.li-item {
+    color: rgb(146,66,176) !important;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-shadow: 0px 1px #000;
+    border: 1px solid rgb(146,66,176);
+    border-radius: 10px;
+    width: 8rem;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+    .li-item:hover {
+        color: #fff !important;
+        background: rgb(146,66,176);
+    }
+
+.presentacion {
+    text-shadow: 1px 1px 1px #000;
+}
+
+#foto {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -7,20 +54,89 @@
     border: 2px solid #000;
 }
 
+.contacto-container {
+    color: #fff;
+    width: 50%;
+    height: fit-content;
+    padding: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    background: rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 4px gray;
+}
+
+.agradecimiento-container {
+    height: 100vh;
+}
+
+    .agradecimiento-container h1 {
+        margin-bottom: 1.5rem;
+    }
+
+    .agradecimiento-container .cont {
+        width: 80%;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.mensaje-contacto {
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgs-contacto {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+    .imgs-contacto img {
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+    }
+
+        .imgs-contacto img:hover {
+            filter: saturate(200%);
+            transition: filter 500ms;
+        }
+
+.bg-custom {
+    background-image: linear-gradient(rgba(0, 16, 31, 0.75), rgba(0, 16, 31, 0.9)), url("/imagenes/desktop.png");
+    box-shadow: inset 0px 0px 10px rgba(50,8,66,1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
 .seccion-bienvenida {
     margin: 5rem 0 10rem 0;
     color: #fff;
 }
 
-.seccion-bienvenida h1 {
-    margin-bottom: 1rem;
-}
+    .seccion-bienvenida h1 {
+        margin-bottom: 1rem;
+    }
 
-.seccion-bienvenida p {
-    font-family: sans-serif;
-    line-height: 1.5;
-    font-size: 1.25rem;
-}
+    .seccion-bienvenida p {
+        font-family: sans-serif;
+        line-height: 1.5;
+        font-size: 1.25rem;
+        text-align: justify
+    }
 
 #imagen-dotnet {
     width: 70%;
@@ -28,14 +144,117 @@
 
 .cabecera {
     font-weight: bold;
+    color: rgba(149,66,180,1);
 }
 
-.habilidades ul {
-    list-style: none;
-    padding-left: 0;
+
+.habilidades-back {
+    border-radius: 15px 0 0 15px;
+    box-shadow: 0 5px 5px 0 gray;
 }
 
-.habilidades i {
-    color: #0d63fd;
-    font-size: 3rem;
+.habilidades-front {
+    border-radius: 0 15px 15px 0;
+    box-shadow: 0 5px 5px 0 gray;
+}
+
+    .habilidades-back ul, .habilidades-front ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .habilidades-back i, .habilidades-front i {
+        color: rgba(149,66,180,1);
+        font-size: 3rem;
+    }
+
+.btn-dark {
+    background: rgba(149,66,180,1);
+    border: 1px solid gray;
+    text-shadow: 1px 1px 1px #000;
+    width: 10rem;
+}
+
+.card-custom {
+    background: transparent;
+    border-radius: 15px;
+    border: 1px solid rgba(149,66,180,1);
+    overflow: hidden
+}
+
+    .card-custom:hover {
+        background: rgba(149,66,180,0.5);
+        border-color: #fff;
+        box-shadow: 2px 2px 2px gray;
+        text-shadow: 1px 1px 1px #000;
+        transition: background 500ms, border-color 500ms, box-shadow 500ms, text-shadow 500ms;
+    }
+
+.card-img-custom {
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+}
+
+.card-body-custom {
+    background: rgba(0,0,0,0.3);
+}
+
+/* typical phone screen resolution */
+@media only screen and (max-width : 667px) {
+    .ul-cont {
+        margin-left: 0rem;
+    }
+
+    .li-item {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+
+
+    #imagen-dotnet {
+        width: 100%;
+    }
+
+    .contenedor-habilidades {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .habilidades-back {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
+
+    .habilidades-back, .habilidades-front {
+        border-radius: 15px;
+        box-shadow: 2px 2px 4px gray
+    }
+
+    .contacto-container {
+        width: 100%;
+    }
+
+    .w-50 {
+        width: 100% !important
+    }
+
+    .mensaje-contacto {
+        font-size: 1.2rem;
+        text-align: justify;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+
+    .imgs-contacto img {
+        width: 7rem;
+        height: 7rem;
+    }
 }

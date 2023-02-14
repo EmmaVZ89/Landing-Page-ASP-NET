@@ -7,14 +7,18 @@
             @foreach (var proyecto in Model)
             {
                 <div class="col">
-                    <div class="card h-100">
-                        <img src="@proyecto.ImagenUrl" class="card-img-top" alt="imagen proyecto" />
-                        <div class="card-body">
-                            <h5 class="card-title">@proyecto.Titulo</h5>
-                            <p class="card-text">@proyecto.Descripcion</p>
+                    <div class="card h-100 card-custom" style="border-radius: 15px !important;">
+                        <img 
+                            src="@proyecto.ImagenUrl" 
+                            class="card-img-top card-img-custom" 
+                            alt="imagen proyecto" />
+                        <div class="card-body card-body-custom" style="text-align:center;">
+                            <h5 class="card-title"
+                            style="color: rgba(149,66,180,1); font-weight:bold;">@proyecto.Titulo</h5>
+                            <p class="card-text text-white">@proyecto.Descripcion</p>
                         </div>
-                        <div class="card-footer">
-                            <a class="btn btn-primary" href="@proyecto.Link" target="_blank"
+                        <div class="card-footer text-center card-body-custom">
+                            <a class="btn btn-dark" href="@proyecto.Link" target="_blank"
                        rel="noopener noreferrer">Visitar</a>
                         </div>
                     </div>

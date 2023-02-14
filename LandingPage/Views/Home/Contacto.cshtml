@@ -2,20 +2,37 @@
     ViewData["Title"] = "Contacto";
 }
 
-<h1>Formulario de Contacto</h1>
+<div class="container pt-3">
+    <div class="text-white text-center py-3">
+        <h1 style="font-weight: bolder">Contacto</h1>
+        <p class="mensaje-contacto">Contáctame para hablar sobre cómo puedo ayudarte con tus proyectos. Estoy listo para poner mi experiencia y habilidades a tu disposición.</p>
+        <div class="imgs-contacto">
+            <a href="https://github.com/EmmaVZ89" target="_blank" rel="noopener noreferrer"><img src="~/imagenes/github.png" alt="logo de github" /></a>
+            <a href="https://www.linkedin.com/in/emmanuel-zelarayan/" target="_blank" rel="noopener noreferrer"><img src="~/imagenes/linkedin.png" alt="logo de linkedin" /></a>
+            <a href="https://twitter.com/ZelarayanVictor" target="_blank" rel="noopener noreferrer"><img src="~/imagenes/twitter.png" alt="logo de twitter" /></a>
+        </div>
+    </div>
+    <div class="contacto-container">
+        <h3 style="text-align:center; font-weight: bolder; text-shadow: 1px 1px 1px #000">
+            Formulario de Contacto
+        </h3>
+        <form asp-controller="Home" asp-action="Contacto" class="d-block m-auto mt-3">
+            <div class="mb-3">
+                <label for="nombre" class="form-laber">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required />
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@email.com" required />
+            </div>
+            <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea>
+            </div>
+            <div class="text-center py-3">
+                <button type="submit" class="btn btn-dark">Enviar</button>
+            </div>
+        </form>
+    </div>
 
-<form as-controller="Home" asp-action="Contacto">
-    <div class="mb-3">
-        <label for="nombre" class="form-laber">Nombre</label>
-        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" />
-    </div>
-    <div class="mb-3">
-        <label for="email" class="form-label">Email</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@email.com" />
-    </div>
-    <div class="mb-3">
-        <label for="mensaje" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea>
-    </div>
-    <button type="submit" class="btn btn-primary">Enviar</button>
-</form>
+</div>

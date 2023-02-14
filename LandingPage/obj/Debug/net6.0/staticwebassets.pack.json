@@ -17,16 +17,112 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\ar.png",
+      "PackagePath": "staticwebassets\\imagenes\\ar.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\aspnetcore.png",
+      "PackagePath": "staticwebassets\\imagenes\\aspnetcore.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\au.png",
+      "PackagePath": "staticwebassets\\imagenes\\au.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\ca.png",
+      "PackagePath": "staticwebassets\\imagenes\\ca.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\cc.png",
+      "PackagePath": "staticwebassets\\imagenes\\cc.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\cg.png",
+      "PackagePath": "staticwebassets\\imagenes\\cg.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\clinica.png",
+      "PackagePath": "staticwebassets\\imagenes\\clinica.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\cv_en.pdf",
+      "PackagePath": "staticwebassets\\imagenes\\cv_en.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\cv_es.pdf",
+      "PackagePath": "staticwebassets\\imagenes\\cv_es.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\desktop.png",
+      "PackagePath": "staticwebassets\\imagenes\\desktop.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\dgps.png",
+      "PackagePath": "staticwebassets\\imagenes\\dgps.png"
+    },
+    {
       "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\dotnet-core.png",
       "PackagePath": "staticwebassets\\imagenes\\dotnet-core.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\github.png",
+      "PackagePath": "staticwebassets\\imagenes\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\imagenes\\icono.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\jk.png",
+      "PackagePath": "staticwebassets\\imagenes\\jk.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\lilianclientes.png",
+      "PackagePath": "staticwebassets\\imagenes\\lilianclientes.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\linkedin.png",
+      "PackagePath": "staticwebassets\\imagenes\\linkedin.png"
     },
     {
       "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\miFoto.jpeg",
       "PackagePath": "staticwebassets\\imagenes\\miFoto.jpeg"
     },
     {
-      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\repositorio.jpeg",
-      "PackagePath": "staticwebassets\\imagenes\\repositorio.jpeg"
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\peluqueriaLanding.png",
+      "PackagePath": "staticwebassets\\imagenes\\peluqueriaLanding.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\portangular.png",
+      "PackagePath": "staticwebassets\\imagenes\\portangular.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\pos.png",
+      "PackagePath": "staticwebassets\\imagenes\\pos.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\rv.png",
+      "PackagePath": "staticwebassets\\imagenes\\rv.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\rym.png",
+      "PackagePath": "staticwebassets\\imagenes\\rym.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\saladejuegos.png",
+      "PackagePath": "staticwebassets\\imagenes\\saladejuegos.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\tdi.png",
+      "PackagePath": "staticwebassets\\imagenes\\tdi.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\twitter.png",
+      "PackagePath": "staticwebassets\\imagenes\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\imagenes\\vk.png",
+      "PackagePath": "staticwebassets\\imagenes\\vk.png"
     },
     {
       "Id": "C:\\Users\\Note\\Desktop\\Proyectos ASP\\LandingPage\\LandingPage\\wwwroot\\js\\site.js",

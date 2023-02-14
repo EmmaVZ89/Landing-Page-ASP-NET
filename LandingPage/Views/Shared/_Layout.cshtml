@@ -12,23 +12,27 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow nav-custom">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">LandingPage</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img class="img-fluid"
+                         style="width:3rem; height:3rem; object-fit:cover;border-radius: 50%;border: 1px solid rgb(146,66,176)"
+                         src="~/imagenes/icono.png" />
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                    <ul class="navbar-nav flex-grow-1 justify-content-center ul-cont">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link li-item" asp-controller="Home" asp-action="Index">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Proyectos">Proyectos</a>
+                            <a class="nav-link li-item" asp-controller="Home" asp-action="Proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Contacto">Contacto</a>
+                            <a class="nav-link li-item" asp-controller="Home" asp-action="Contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -36,15 +40,18 @@
         </nav>
     </header>
 
-    <div class="container-fluid">
+    <div class="container-fluid contenedor-general">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - LandingPage - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer class="border-top footer text-muted footer-custom">
+        <div class="container text-center">
+            Hecho en <a href="https://learn.microsoft.com/es-es/aspnet/core/?view=aspnetcore-7.0" target="_blank">
+                <img src="~/imagenes/aspnetcore.png" style="width: 4rem;" /></a>
+            &copy; 2023 - <a href="https://github.com/EmmaVZ89/" target="_blank" 
+            rel="noopener noreferrer">Emmanuel Zelarayán</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
